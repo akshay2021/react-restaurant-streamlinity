@@ -7,8 +7,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main {
+  display: flex;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ul {
+  font-size: 12px;
+  margin-right: 80px;
+}
+
+li {
+  cursor: pointer;
+}
+li:hover {
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,.5);
+}
+
+thead {
+  text-align: left;
 }
